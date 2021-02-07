@@ -1,10 +1,10 @@
-.navbar nav ul {
+.navbarUnorderedList {
     list-style: none;
     display: flex;
     margin: 40px 20px;
 }
 
-.navbar ul li {
+.navbarList {
     display: flex;
     margin-left: auto;
     margin-right: auto;

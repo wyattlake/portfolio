@@ -1,11 +1,8 @@
 import styles from "../styles/Home.module.css";
 import { Navbar } from "../components/Navbar";
 import { Button } from "../components/Button";
-import Head from "next/head";
 import Logo from "../public/svgs/logo.svg";
-import Icon1 from "../public/svgs/icon1.svg";
-import Icon2 from "../public/svgs/icon2.svg";
-import Icon3 from "../public/svgs/icon3.svg";
+import Head from "next/head";
 
 export default function Home() {
     return (
@@ -23,10 +20,26 @@ export default function Home() {
                     <Navbar />
                 </section>
                 <section className={styles.header}>
-                    <Logo />
-                    <h1 className={styles.headerText}>Hi, I'm Wyatt Lake</h1>
-                    <Button text="Contact" />
-                    <Button text="Github" />
+                    <div className={styles.headerLeft}>
+                        <div className={styles.headerLogo}>
+                            <Logo />
+                        </div>
+                        <h1 className={styles.headerText}>
+                            Hi, I'm Wyatt Lake
+                        </h1>
+                    </div>
+                    <div className={styles.headerButtons}>
+                        <Button
+                            className={styles.button}
+                            width={120}
+                            text="Contact"
+                        />
+                        <Button
+                            href="https://github.com/wyattlake"
+                            width={120}
+                            text="Github"
+                        />
+                    </div>
                 </section>
                 <section className={styles.body}>
                     <div className={styles.glassBox}>
@@ -35,7 +48,6 @@ export default function Home() {
                                 <h2 className={styles.sectionHeaderText}>
                                     About me
                                 </h2>
-                                <Icon1 className={styles.smallIcon} />
                             </div>
                             <p className={styles.sectionText}>
                                 I’m a 14 year old programmer and designer from
@@ -48,7 +60,6 @@ export default function Home() {
                                 <h2 className={styles.sectionHeaderText}>
                                     Programming
                                 </h2>
-                                <Icon2 className={styles.smallIcon} />
                             </div>
                             <p className={styles.sectionText}>
                                 Currently, I am working on a rasterizer written
@@ -61,7 +72,6 @@ export default function Home() {
                                 <h2 className={styles.sectionHeaderText}>
                                     About this site
                                 </h2>
-                                <Icon3 className={styles.smallIcon} />
                             </div>
                             <p className={styles.sectionText}>
                                 This site is a collection of all my best

@@ -3,10 +3,10 @@ import styles from "./styles/Navbar.module.css";
 
 export const Navbar: React.FC = () => {
     return (
-        <header className={styles.navbar}>
+        <header>
             <nav>
-                <ul>
-                    <li>
+                <ul className={styles.navbarUnorderedList}>
+                    <li className={styles.navbarList}>
                         <NextLink href="/">
                             <p className={styles.navbarText}>Home</p>
                         </NextLink>
