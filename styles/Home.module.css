@@ -1,11 +1,12 @@
 /* Header Styles */
 .headerText {
+    letter-spacing: -1px;
     color: #4d4d4d;
     font-weight: 600;
 }
 
 /* Section Styles */
-.sectionHeader {
+.sectionHeaderText {
     color: #4d4d4d;
     font-weight: 500;
 }

@@ -1,6 +1,7 @@
 .navbar nav ul {
     list-style: none;
     display: flex;
+    margin: 40px 20px;
 }
 
 .navbar ul li {
@@ -12,5 +13,5 @@
 .navbarText {
     color: #4d4d4d;
     font-weight: 400;
-    margin: 1em 1em;
+    margin: 0px 20px;
 }
