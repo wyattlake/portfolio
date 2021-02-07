@@ -1,0 +1,16 @@
+.navbar nav ul {
+    list-style: none;
+    display: flex;
+}
+
+.navbar ul li {
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.navbarText {
+    color: #4d4d4d;
+    font-weight: 400;
+    margin: 1em 1em;
+}

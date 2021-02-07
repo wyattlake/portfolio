@@ -1,6 +1,6 @@
 import styles from "../styles/Home.module.css";
 import { Navbar } from "../components/Navbar";
-import { RoundButton } from "../components/RoundButton";
+import { Button } from "../components/Button";
 
 export default function Home() {
     return (
@@ -22,8 +22,8 @@ export default function Home() {
                         <h1 className={styles.headerText}>
                             Hi, I'm Wyatt Lake
                         </h1>
-                        <RoundButton text="Contact" />
-                        <RoundButton text="Github" />
+                        <Button text="Contact" />
+                        <Button text="Github" />
                     </section>
                     <section className={styles.body}>
                         <div className={styles.glassBox}>

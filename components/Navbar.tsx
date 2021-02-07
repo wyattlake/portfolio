@@ -1,19 +1,20 @@
 import NextLink from "next/link";
+import styles from "./styles/Navbar.module.css";
 
 export const Navbar: React.FC = () => {
     return (
-        <header>
+        <header className={styles.navbar}>
             <nav>
                 <ul>
                     <li>
                         <NextLink href="/">
-                            <p>Home</p>
+                            <p className={styles.navbarText}>Home</p>
                         </NextLink>
                         <NextLink href="/">
-                            <p>Projects</p>
+                            <p className={styles.navbarText}>Projects</p>
                         </NextLink>
                         <NextLink href="/">
-                            <p>Resume</p>
+                            <p className={styles.navbarText}>Resume</p>
                         </NextLink>
                     </li>
                 </ul>

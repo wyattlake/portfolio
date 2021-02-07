@@ -1,5 +1,9 @@
 .roundButton {
     font-family: "SF Pro";
-    font-weight: 100;
     border-radius: 50%;
+}
+
+.buttonText {
+    color: #4d4d4d;
+    font-weight: 400;
 }

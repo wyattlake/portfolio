@@ -1,3 +1,16 @@
+/* Header Styles */
 .headerText {
+    color: #4d4d4d;
     font-weight: 600;
+}
+
+/* Section Styles */
+.sectionHeader {
+    color: #4d4d4d;
+    font-weight: 500;
+}
+
+.sectionText {
+    color: #4d4d4d;
+    font-weight: 100;
 }
