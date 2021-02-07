@@ -1,79 +1,68 @@
-import Head from "next/head";
 import styles from "../styles/Home.module.css";
+import { Navbar } from "../components/Navbar";
+import { RoundButton } from "../components/RoundButton";
 
 export default function Home() {
     return (
-        <div className={styles.container}>
-            <Head>
-                <title>Create Next App</title>
-                <link rel="icon" href="/favicon.ico" />
-            </Head>
-
-            <main className={styles.main}>
-                <h1 className={styles.title}>
-                    Welcome to <a href="https://nextjs.org">Next.js!</a>
-                </h1>
-
-                <p className={styles.description}>
-                    Get started by editing{" "}
-                    <code className={styles.code}>pages/index.js</code>
-                </p>
-
-                <div className={styles.grid}>
-                    <a href="https://nextjs.org/docs" className={styles.card}>
-                        <h3>Documentation &rarr;</h3>
-                        <p>
-                            Find in-depth information about Next.js features and
-                            API.
-                        </p>
-                    </a>
-
-                    <a href="https://nextjs.org/learn" className={styles.card}>
-                        <h3>Learn &rarr;</h3>
-                        <p>
-                            Learn about Next.js in an interactive course with
-                            quizzes!
-                        </p>
-                    </a>
-
-                    <a
-                        href="https://github.com/vercel/next.js/tree/master/examples"
-                        className={styles.card}
-                    >
-                        <h3>Examples &rarr;</h3>
-                        <p>
-                            Discover and deploy boilerplate example Next.js
-                            projects.
-                        </p>
-                    </a>
-
-                    <a
-                        href="https://vercel.com/new?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-                        className={styles.card}
-                    >
-                        <h3>Deploy &rarr;</h3>
-                        <p>
-                            Instantly deploy your Next.js site to a public URL
-                            with Vercel.
-                        </p>
-                    </a>
-                </div>
-            </main>
-
-            <footer className={styles.footer}>
-                <a
-                    href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                >
-                    Powered by{" "}
-                    <img
-                        src="/vercel.svg"
-                        alt="Vercel Logo"
-                        className={styles.logo}
-                    />
-                </a>
-            </footer>
-        </div>
+        <>
+            <head>
+                <meta charSet="UTF-8"></meta>
+                <meta
+                    name="viewport"
+                    content="width=device-width, initial-scale=1.0"
+                ></meta>
+                <title>Wyatt Lake's Portfolio</title>
+            </head>
+            <body>
+                <main>
+                    <section className={styles.navbar}>
+                        <Navbar />
+                    </section>
+                    <section className={styles.header}>
+                        <h1 className={styles.headerText}>
+                            Hi, I'm Wyatt Lake
+                        </h1>
+                        <RoundButton text="Contact" />
+                        <RoundButton text="Github" />
+                    </section>
+                    <section className={styles.body}>
+                        <div className={styles.glassBox}>
+                            <div className={styles.shortParagraph}>
+                                <h2 className={styles.sectionHeader}>
+                                    About me
+                                </h2>
+                                <p className={styles.sectionText}>
+                                    I’m a 14 year old programmer and designer
+                                    from California. I mainly work with Rust and
+                                    Typescript.
+                                </p>
+                            </div>
+                            <div className={styles.shortParagraph}>
+                                <h2 className={styles.sectionHeader}>
+                                    Programming
+                                </h2>
+                                <p className={styles.sectionText}>
+                                    Currently, I am working on a rasterizer
+                                    written in Rust and a notes application. You
+                                    can check them out on my Github.
+                                </p>
+                            </div>
+                            <div className={styles.shortParagraph}>
+                                <h2 className={styles.sectionHeader}>
+                                    About this site
+                                </h2>
+                                <p className={styles.sectionText}>
+                                    This site is a collection of all my best
+                                    programming projects and designs. In the
+                                    future, I plan on posting more in depth
+                                    write-ups on specific projects.
+                                </p>
+                            </div>
+                        </div>
+                    </section>
+                    <section className={styles.background}></section>
+                </main>
+            </body>
+        </>
     );
 }

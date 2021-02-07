@@ -1,16 +1,39 @@
+@font-face {
+    font-family: "SF Pro";
+    src: url("/fonts/SF-Pro-Text-Bold.otf");
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "SF Pro";
+    src: url("/fonts/SF-Pro-Text-Medium.otf");
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "SF Pro";
+    src: url("/fonts/SF-Pro-Text-Light.otf");
+    font-weight: 100;
+}
+
+@font-face {
+    font-family: "SF Pro";
+    src: url("/fonts/SF-Pro-Text-Semibold.otf");
+    font-weight: 500;
+}
+
 html,
 body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    padding: 0;
+    margin: 0;
+    font-family: "SF Pro";
 }
 
 a {
-  color: inherit;
-  text-decoration: none;
+    color: inherit;
+    text-decoration: none;
 }
 
 * {
-  box-sizing: border-box;
+    box-sizing: inherit;
 }
