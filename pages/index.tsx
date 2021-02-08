@@ -32,6 +32,7 @@ export default function Home() {
                         <h1 className={styles.headerText}>
                             Hi, I'm Wyatt Lake
                         </h1>
+                        <div className={styles.vl}></div>
                     </div>
                     <div className={styles.headerButtons}>
                         <Button
@@ -48,51 +49,53 @@ export default function Home() {
                 </section>
                 <section className={styles.body}>
                     <div className={styles.glassBox}>
-                        <div className={styles.shortParagraph}>
-                            <div className={styles.sectionHeader}>
-                                <h2 className={styles.sectionHeaderText}>
-                                    About me
-                                </h2>
-                                <div className={styles.icon1}>
-                                    <Svg src={icon1} />
+                        <div className={styles.sections}>
+                            <div className={styles.sectionAbout}>
+                                <div className={styles.sectionHeader}>
+                                    <h2 className={styles.sectionHeaderText}>
+                                        About me
+                                    </h2>
+                                    <div className={styles.icon1}>
+                                        <Svg src={icon1} />
+                                    </div>
                                 </div>
+                                <p className={styles.sectionText}>
+                                    I’m a 14 year old programmer and designer
+                                    from California. I mainly work with Rust and
+                                    Typescript.
+                                </p>
                             </div>
-                            <p className={styles.sectionText}>
-                                I’m a 14 year old programmer and designer from
-                                California. I mainly work with Rust and
-                                Typescript.
-                            </p>
-                        </div>
-                        <div className={styles.shortParagraph}>
-                            <div className={styles.sectionHeader}>
-                                <h2 className={styles.sectionHeaderText}>
-                                    Programming
-                                </h2>
-                                <div className={styles.icon2}>
-                                    <Svg src={icon2} />
+                            <div className={styles.sectionProgramming}>
+                                <div className={styles.sectionHeader}>
+                                    <h2 className={styles.sectionHeaderText}>
+                                        Programming
+                                    </h2>
+                                    <div className={styles.icon2}>
+                                        <Svg src={icon2} />
+                                    </div>
                                 </div>
+                                <p className={styles.sectionText}>
+                                    Currently, I am working on a rasterizer
+                                    written in Rust and a notes application. You
+                                    can check them out on my Github.
+                                </p>
                             </div>
-                            <p className={styles.sectionText}>
-                                Currently, I am working on a rasterizer written
-                                in Rust and a notes application. You can check
-                                them out on my Github.
-                            </p>
-                        </div>
-                        <div className={styles.shortParagraph}>
-                            <div className={styles.sectionHeader}>
-                                <h2 className={styles.sectionHeaderText}>
-                                    About this site
-                                </h2>
-                                <div className={styles.icon3}>
-                                    <Svg src={icon3} />
+                            <div className={styles.sectionSite}>
+                                <div className={styles.sectionHeader}>
+                                    <h2 className={styles.sectionHeaderText}>
+                                        About this site
+                                    </h2>
+                                    <div className={styles.icon3}>
+                                        <Svg src={icon3} />
+                                    </div>
                                 </div>
+                                <p className={styles.sectionText}>
+                                    This site is a collection of all my best
+                                    programming projects and designs. In the
+                                    future, I plan on posting more in depth
+                                    write-ups on specific projects.
+                                </p>
                             </div>
-                            <p className={styles.sectionText}>
-                                This site is a collection of all my best
-                                programming projects and designs. In the future,
-                                I plan on posting more in depth write-ups on
-                                specific projects.
-                            </p>
                         </div>
                     </div>
                 </section>
