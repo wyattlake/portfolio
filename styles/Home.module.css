@@ -19,14 +19,14 @@
 }
 
 .headerLogo {
-    width: 55px;
-    height: 55px;
+    width: 57px;
+    height: 57px;
     align-self: center;
     margin-left: 15px;
 }
 
 .headerText {
-    font-size: 45px;
+    font-size: 50px;
     letter-spacing: -2px;
     color: #4d4d4d;
     font-weight: 600;
@@ -42,4 +42,9 @@
 .sectionText {
     color: #4d4d4d;
     font-weight: 100;
+}
+
+.icon {
+    height: 25px;
+    width: 25px;
 }

@@ -1,7 +1,11 @@
-import styles from "../styles/Home.module.css";
-import { Navbar } from "../components/Navbar";
-import { Button } from "../components/Button";
-import Logo from "../public/svgs/logo.svg";
+import styles from "styles/Home.module.css";
+import { Navbar } from "components/Navbar";
+import { Button } from "components/Button";
+import { Svg } from "react-optimized-image";
+import logo from "svgs/logo.svg";
+import icon1 from "svgs/icon1.svg";
+import icon2 from "svgs/icon2.svg";
+import icon3 from "svgs/icon3.svg";
 import Head from "next/head";
 
 export default function Home() {
@@ -22,7 +26,7 @@ export default function Home() {
                 <section className={styles.header}>
                     <div className={styles.headerLeft}>
                         <div className={styles.headerLogo}>
-                            <Logo />
+                            <Svg src={logo} />
                         </div>
                         <h1 className={styles.headerText}>
                             Hi, I'm Wyatt Lake
@@ -48,6 +52,9 @@ export default function Home() {
                                 <h2 className={styles.sectionHeaderText}>
                                     About me
                                 </h2>
+                                <div className={styles.icon}>
+                                    <Svg src={icon1} />
+                                </div>
                             </div>
                             <p className={styles.sectionText}>
                                 I’m a 14 year old programmer and designer from
@@ -60,6 +67,9 @@ export default function Home() {
                                 <h2 className={styles.sectionHeaderText}>
                                     Programming
                                 </h2>
+                                <div className={styles.icon}>
+                                    <Svg src={icon2} />
+                                </div>
                             </div>
                             <p className={styles.sectionText}>
                                 Currently, I am working on a rasterizer written
@@ -72,6 +82,9 @@ export default function Home() {
                                 <h2 className={styles.sectionHeaderText}>
                                     About this site
                                 </h2>
+                                <div className={styles.icon}>
+                                    <Svg src={icon3} />
+                                </div>
                             </div>
                             <p className={styles.sectionText}>
                                 This site is a collection of all my best
