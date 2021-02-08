@@ -6,6 +6,7 @@ import logo from "svgs/logo.svg";
 import icon1 from "svgs/icon1.svg";
 import icon2 from "svgs/icon2.svg";
 import icon3 from "svgs/icon3.svg";
+import background from "svgs/background.svg";
 import Head from "next/head";
 
 export default function Home() {
@@ -19,7 +20,7 @@ export default function Home() {
                 ></meta>
                 <title>Wyatt Lake's Portfolio</title>
             </Head>
-            <main>
+            <main className={styles.main}>
                 <section className={styles.navbar}>
                     <Navbar />
                 </section>
@@ -52,7 +53,7 @@ export default function Home() {
                                 <h2 className={styles.sectionHeaderText}>
                                     About me
                                 </h2>
-                                <div className={styles.icon}>
+                                <div className={styles.icon1}>
                                     <Svg src={icon1} />
                                 </div>
                             </div>
@@ -67,7 +68,7 @@ export default function Home() {
                                 <h2 className={styles.sectionHeaderText}>
                                     Programming
                                 </h2>
-                                <div className={styles.icon}>
+                                <div className={styles.icon2}>
                                     <Svg src={icon2} />
                                 </div>
                             </div>
@@ -82,7 +83,7 @@ export default function Home() {
                                 <h2 className={styles.sectionHeaderText}>
                                     About this site
                                 </h2>
-                                <div className={styles.icon}>
+                                <div className={styles.icon3}>
                                     <Svg src={icon3} />
                                 </div>
                             </div>
@@ -95,8 +96,8 @@ export default function Home() {
                         </div>
                     </div>
                 </section>
-                <section className={styles.background}></section>
             </main>
+            <Svg src={background} className={styles.background} />
         </>
     );
 }

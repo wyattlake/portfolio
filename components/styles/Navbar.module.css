@@ -11,7 +11,8 @@
 }
 
 .navbarText {
+    font-size: 13px;
     color: #4d4d4d;
     font-weight: 400;
-    margin: 0px 20px;
+    margin: 0px 25px;
 }
