@@ -1,11 +1,22 @@
 .button {
+    background-color: #ffffff;
     font-family: "SF Pro";
     border-radius: 50px;
-    background-color: #fafafa;
     border-style: solid;
     border-width: 1px;
     border-color: #e6e6e6;
     text-align: center;
+    transition: 0.4s;
+}
+
+@supports (backdrop-filter: blur(30px)) {
+    .button {
+        background-color: #fafafa;
+    }
+}
+
+.button:hover {
+    border-color: #cacaca;
 }
 
 .buttonText {
