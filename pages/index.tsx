@@ -7,19 +7,12 @@ import icon1 from "svgs/icon1.svg";
 import icon2 from "svgs/icon2.svg";
 import icon3 from "svgs/icon3.svg";
 import background from "svgs/background.svg";
-import Head from "next/head";
+import { Header } from "components/Header";
 
 export default function Home() {
     return (
         <>
-            <Head>
-                <meta charSet="UTF-8"></meta>
-                <meta
-                    name="viewport"
-                    content="width=device-width, initial-scale=1.0"
-                ></meta>
-                <title>Wyatt Lake's Portfolio</title>
-            </Head>
+            <Header />
             <main className={styles.main}>
                 <section className={styles.navbar}>
                     <Navbar />

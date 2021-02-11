@@ -10,7 +10,7 @@ export const Navbar: React.FC = () => {
                         <NextLink href="/">
                             <p className={styles.navbarText}>Home</p>
                         </NextLink>
-                        <NextLink href="/">
+                        <NextLink href="/projects">
                             <p className={styles.navbarText}>Projects</p>
                         </NextLink>
                         <NextLink href="/">
