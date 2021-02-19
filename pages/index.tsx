@@ -17,17 +17,15 @@ export default function Home() {
                 <section className={styles.navbar}>
                     <Navbar />
                 </section>
-                <section className={styles.header}>
-                    <div className={styles.headerLeft}>
-                        <div className={styles.headerLogo}>
+                <section className="header">
+                    <div className="headerLeft">
+                        <div className="headerLogo">
                             <Svg src={logo} />
                         </div>
-                        <h1 className={styles.headerText}>
-                            Hi, I'm Wyatt Lake
-                        </h1>
+                        <h1 className="headerText">Hi, I'm Wyatt Lake</h1>
                         <div className={styles.vl}></div>
                     </div>
-                    <div className={styles.headerButtons}>
+                    <div className="headerButtons">
                         <Button
                             className={styles.button}
                             width={120}
