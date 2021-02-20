@@ -2,12 +2,12 @@ import styles from "styles/Home.module.css";
 import { Navbar } from "components/Navbar";
 import { Button } from "components/Button";
 import { Svg } from "react-optimized-image";
-import logo from "svgs/logo.svg";
-import icon1 from "svgs/icon1.svg";
-import icon2 from "svgs/icon2.svg";
-import icon3 from "svgs/icon3.svg";
-import background from "svgs/background.svg";
+import icon1 from "svgs/index/icon1.svg";
+import icon2 from "svgs/index/icon2.svg";
+import icon3 from "svgs/index/icon3.svg";
+import background from "svgs/index/background.svg";
 import { Header } from "components/Header";
+import { Title } from "components/Title";
 
 export default function Home() {
     return (
@@ -17,15 +17,11 @@ export default function Home() {
                 <section className={styles.navbar}>
                     <Navbar />
                 </section>
-                <section className="header">
-                    <div className="headerLeft">
-                        <div className="headerLogo">
-                            <Svg src={logo} />
-                        </div>
-                        <h1 className="headerText">Hi, I'm Wyatt Lake</h1>
-                        <div className={styles.vl}></div>
+                <section className={styles.header}>
+                    <div className={styles.headerLeft}>
+                        <Title title="Hi, I'm Wyatt Lake" />
                     </div>
-                    <div className="headerButtons">
+                    <div className={styles.headerButtons}>
                         <Button
                             className={styles.button}
                             width={120}
@@ -68,7 +64,7 @@ export default function Home() {
                                 <p className={styles.sectionText}>
                                     Currently, I am working on a rasterizer
                                     written in Rust and a notes application. You
-                                    can check them out on my Github.
+                                    can check both of those out on my Github.
                                 </p>
                             </div>
                             <div className={styles.sectionSite}>

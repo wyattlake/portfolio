@@ -17,6 +17,7 @@
 
 .button:hover {
     border-color: #cacaca;
+    transform: translate(0px, -1px);
 }
 
 .buttonText {

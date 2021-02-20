@@ -1,4 +1,23 @@
 /* Section Styles */
+.headerButtons div {
+    margin-left: 15px;
+}
+
+.headerButtons {
+    align-self: center;
+    margin-left: auto;
+    display: flex;
+}
+
+.header {
+    display: flex;
+    margin: 40px 75px;
+}
+
+.headerLeft {
+    display: flex;
+}
+
 .sections {
     display: grid;
     grid-template-columns: 10fr 1fr 9fr;
@@ -90,6 +109,7 @@
 
 .glassBox:hover {
     border-color: #cacaca;
+    transform: translate(0px, -1px);
 }
 
 /* Background Styles */
@@ -100,11 +120,4 @@
     z-index: -1;
     bottom: -250px;
     left: -90px;
-}
-
-/* Misc */
-.vl {
-    border-left: 0.5px solid #4d4d4d;
-    margin-left: 20px;
-    height: 1fr;
 }

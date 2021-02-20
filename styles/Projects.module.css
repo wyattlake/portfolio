@@ -1,0 +1,29 @@
+/* Section Styles */
+.headerButtons div {
+    margin-left: 15px;
+}
+
+.headerButtons {
+    align-self: center;
+    margin-left: auto;
+    display: flex;
+}
+
+.header {
+    display: flex;
+    margin: 40px 75px;
+}
+
+.headerLeft {
+    display: flex;
+}
+
+/* Background Styles */
+.background {
+    width: 700px;
+    height: 700px;
+    position: fixed;
+    z-index: -1;
+    bottom: -200px;
+    right: -150px;
+}
