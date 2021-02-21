@@ -92,15 +92,15 @@
     transition: 0.4s;
 }
 
-@supports (backdrop-filter: blur(30px)) {
+@supports (backdrop-filter: blur(20px)) {
     .glassBox {
-        background-color: rgba(243, 243, 243, 0.452);
-        backdrop-filter: blur(30px);
+        background-color: rgba(253, 253, 253, 0.452);
+        backdrop-filter: blur(20px);
     }
 }
 
 .glassBox:hover {
-    border-color: #cacaca;
+    border-color: #d6d6d6;
     transform: translate(0px, -1px);
 }
 

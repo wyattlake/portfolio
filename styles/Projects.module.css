@@ -24,7 +24,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     column-gap: 80px;
-    row-gap: 80px;
+    row-gap: 60px;
     margin-right: 70px;
     margin-left: 70px;
 }
@@ -41,15 +41,15 @@
     flex-direction: column;
 }
 
-@supports (backdrop-filter: blur(30px)) {
+@supports (backdrop-filter: blur(20px)) {
     .project {
-        background-color: rgba(243, 243, 243, 0.452);
-        backdrop-filter: blur(30px);
+        background-color: rgba(253, 253, 253, 0.452);
+        backdrop-filter: blur(20px);
     }
 }
 
 .project:hover {
-    border-color: #cacaca;
+    border-color: #d6d6d6;
 }
 
 .projectText {
@@ -87,4 +87,43 @@
     margin: 0px auto;
     width: 70px;
     height: 70px;
+}
+
+.soulSuckerIcon {
+    margin: 0px auto;
+    width: 77px;
+    height: 77px;
+    padding-left: 20px;
+}
+
+.rasterizerIcon {
+    margin: 0px auto;
+    width: 75px;
+    height: 75px;
+}
+
+.noiseIcon {
+    margin: 0px auto;
+    width: 80px;
+    height: 80px;
+}
+
+.notesIcon {
+    margin: 0px auto;
+    width: 55px;
+    height: 55px;
+    padding-top: 15px;
+}
+
+.twitterSentimentsIcon {
+    margin: 0px auto;
+    width: 75px;
+    height: 55px;
+    padding-top: 10px;
+}
+
+.portfolioIcon {
+    margin: 0px auto;
+    width: 65px;
+    height: 65px;
 }

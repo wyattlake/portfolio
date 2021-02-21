@@ -11,12 +11,12 @@
 
 @supports (backdrop-filter: blur(30px)) {
     .button {
-        background-color: #fafafa;
+        background-color: #fdfcfc;
     }
 }
 
 .button:hover {
-    border-color: #cacaca;
+    border-color: #d6d6d6;
     transform: translate(0px, -1px);
 }
 
