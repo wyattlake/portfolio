@@ -18,6 +18,58 @@
     display: flex;
 }
 
+/* Project Styles */
+.projects {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-column-gap: 20px;
+}
+
+.project {
+    background-color: #ffffff;
+    padding: 30px 40px;
+    border-radius: 30px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #e6e6e6;
+    margin: 0px 70px;
+    transition: 0.4s;
+    width: 230px;
+    display: flex;
+    flex-direction: column;
+}
+
+@supports (backdrop-filter: blur(30px)) {
+    .project {
+        background-color: rgba(243, 243, 243, 0.452);
+        backdrop-filter: blur(30px);
+    }
+}
+
+.projectText {
+    display: flex;
+    flex-direction: column;
+}
+
+.projectsHeader {
+    color: #4d4d4d;
+    font-weight: 500;
+    font-size: 25px;
+    margin-bottom: 5px;
+}
+
+.projectsInfo {
+    color: #4d4d4d;
+    font-weight: 300;
+    font-size: 15px;
+    margin-top: 0px;
+}
+
+.project:hover {
+    border-color: #cacaca;
+    transform: translate(0px, -1px);
+}
+
 /* Background Styles */
 .background {
     width: 700px;
@@ -26,4 +78,11 @@
     z-index: -1;
     bottom: -200px;
     right: -150px;
+}
+
+/* Icons */
+.rayTracerIcon {
+    margin: 0px auto;
+    width: 90px;
+    height: 90px;
 }
