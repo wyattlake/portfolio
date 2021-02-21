@@ -30,6 +30,78 @@ export default function Projects() {
                             <p className={styles.projectsInfo}>Graphics</p>
                         </div>
                     </div>
+                    <div className={styles.project}>
+                        <Svg
+                            src={rayTracerIcon}
+                            className={styles.rayTracerIcon}
+                        />
+                        <div className={styles.projectText}>
+                            <h2 className={styles.projectsHeader}>
+                                Rust Ray Tracer
+                            </h2>
+                            <p className={styles.projectsInfo}>Graphics</p>
+                        </div>
+                    </div>
+                    <div className={styles.project}>
+                        <Svg
+                            src={rayTracerIcon}
+                            className={styles.rayTracerIcon}
+                        />
+                        <div className={styles.projectText}>
+                            <h2 className={styles.projectsHeader}>
+                                Rust Ray Tracer
+                            </h2>
+                            <p className={styles.projectsInfo}>Graphics</p>
+                        </div>
+                    </div>
+                    <div className={styles.project}>
+                        <Svg
+                            src={rayTracerIcon}
+                            className={styles.rayTracerIcon}
+                        />
+                        <div className={styles.projectText}>
+                            <h2 className={styles.projectsHeader}>
+                                Rust Ray Tracer
+                            </h2>
+                            <p className={styles.projectsInfo}>Graphics</p>
+                        </div>
+                    </div>
+                    <div className={styles.project}>
+                        <Svg
+                            src={rayTracerIcon}
+                            className={styles.rayTracerIcon}
+                        />
+                        <div className={styles.projectText}>
+                            <h2 className={styles.projectsHeader}>
+                                Rust Ray Tracer
+                            </h2>
+                            <p className={styles.projectsInfo}>Graphics</p>
+                        </div>
+                    </div>
+                    <div className={styles.project}>
+                        <Svg
+                            src={rayTracerIcon}
+                            className={styles.rayTracerIcon}
+                        />
+                        <div className={styles.projectText}>
+                            <h2 className={styles.projectsHeader}>
+                                Rust Ray Tracer
+                            </h2>
+                            <p className={styles.projectsInfo}>Graphics</p>
+                        </div>
+                    </div>
+                    <div className={styles.project}>
+                        <Svg
+                            src={rayTracerIcon}
+                            className={styles.rayTracerIcon}
+                        />
+                        <div className={styles.projectText}>
+                            <h2 className={styles.projectsHeader}>
+                                Rust Ray Tracer
+                            </h2>
+                            <p className={styles.projectsInfo}>Graphics</p>
+                        </div>
+                    </div>
                 </div>
             </section>
             <Svg src={background} className={styles.background} />
