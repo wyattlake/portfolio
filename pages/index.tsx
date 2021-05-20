@@ -2,10 +2,10 @@ import styles from "styles/Home.module.css";
 import { Navbar } from "components/Navbar";
 import { Button } from "components/Button";
 import { Svg } from "react-optimized-image";
-import icon1 from "svgs/index/icon1.svg";
-import icon2 from "svgs/index/icon2.svg";
-import icon3 from "svgs/index/icon3.svg";
-import background from "svgs/index/background.svg";
+import icon1 from "public/index/icon1.svg";
+import icon2 from "public/index/icon2.svg";
+import icon3 from "public/index/icon3.svg";
+import background from "public/index/background.svg";
 import { Header } from "components/Header";
 import { Title } from "components/Title";
 

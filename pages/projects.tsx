@@ -2,14 +2,14 @@ import { Header } from "components/Header";
 import { Navbar } from "components/Navbar";
 import styles from "styles/Projects.module.css";
 import { Title } from "components/Title";
-import background from "svgs/projects/background.svg";
-import rayTracerIcon from "svgs/projects/rayTracerIcon.svg";
-import soulSuckerIcon from "svgs/projects/soulSuckerIcon.svg";
-import rasterizerIcon from "svgs/projects/rasterizerIcon.svg";
-import noiseIcon from "svgs/projects/noiseIcon.svg";
-import notesIcon from "svgs/projects/notesIcon.svg";
-import twitterSentimentsIcon from "svgs/projects/twitterSentimentsIcon.svg";
-import logo from "svgs/logo.svg";
+import background from "public/projects/background.svg";
+import rayTracerIcon from "public/projects/rayTracerIcon.svg";
+import soulSuckerIcon from "public/projects/soulSuckerIcon.svg";
+import rasterizerIcon from "public/projects/rasterizerIcon.svg";
+import noiseIcon from "public/projects/noiseIcon.svg";
+import notesIcon from "public/projects/notesIcon.svg";
+import twitterSentimentsIcon from "public/projects/twitterSentimentsIcon.svg";
+import logo from "public/logo.svg";
 import { Svg } from "react-optimized-image";
 
 export default function Projects() {

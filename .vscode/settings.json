@@ -1,4 +1,6 @@
 {
-    "emmet.extensionsPath": "",
+    "emmet.extensionsPath": [
+        ""
+    ],
     "emmet.triggerExpansionOnTab": true
 }

@@ -1,5 +1,5 @@
 import { Svg } from "react-optimized-image";
-import logo from "svgs/logo.svg";
+import logo from "public/logo.svg";
 import styles from "components/styles/Title.module.css";
 
 type TitleProps = {
